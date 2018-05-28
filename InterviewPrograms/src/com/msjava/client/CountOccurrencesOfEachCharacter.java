@@ -27,3 +27,4 @@ public class CountOccurrencesOfEachCharacter {
 		System.out.println("Count char : " + charCountMap);
 	}
 }
+
