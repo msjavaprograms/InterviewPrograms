@@ -38,7 +38,8 @@ public class IterateMapInDiffWay {
 
 		}
 
-		// Method 3. Iterate through entryset, Iterator and while loop - Method 2 and Method 3 and almost similar
+		// Method 3. Iterate through entryset, Iterator and while loop 
+		// Method 2 and Method 3 and almost similar
 		Iterator<Map.Entry<String, Integer>> mapIterator = map.entrySet()
 				.iterator();
 		System.out.println("3.Iterate through entryset, Iterator and while loop");
