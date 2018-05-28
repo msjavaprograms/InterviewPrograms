@@ -9,7 +9,7 @@ public class CountOccurrencesOfEachCharacter {
 	public static void main(String[] args) {
 		System.out.println("Enter the string :");
 		Scanner input = new Scanner(System.in);
-		String str = input.next();
+		String str = input.nextLine();
 
 		Map<Character, Integer> charCountMap = new HashMap<Character, Integer>();
 		str = str.replace(" ", "");
