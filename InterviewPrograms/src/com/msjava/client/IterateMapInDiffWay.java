@@ -15,8 +15,6 @@ public class IterateMapInDiffWay {
 		map.put("Orange", 200);
 		map.put("Mangos", 300);
 		
-		
-
 		// Method 1. Iterate through entryset, Set and forEach loop
 		Set<Map.Entry<String, Integer>> mapEntrySet = map.entrySet();
 		System.out.println("1.Iterate through entryset, Set and forEach loop");
