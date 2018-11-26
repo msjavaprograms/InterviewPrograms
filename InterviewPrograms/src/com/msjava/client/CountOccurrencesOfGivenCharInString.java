@@ -29,6 +29,10 @@ public class CountOccurrencesOfGivenCharInString {
 				charCountMap.put(c, 1);
 			}
 		}
-		System.out.println("Occurence of Given Char "+ searchChar + " :" + charCountMap.get(searchChar));
+		System.out.println("Occurence of Given Char "+ searchChar + " :" 
+		+ charCountMap.get(searchChar));
 	}
 }
+
+
+
